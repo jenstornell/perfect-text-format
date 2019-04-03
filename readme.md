@@ -19,13 +19,22 @@ This is a serious attempt to create the perfect text format for readability.
 
 If you disagree, [add an issue](https://github.com/jenstornell/perfect-text-format/issues/new).
 
+## Usage
+
+1. Add the file `assets/css/dist/style.min.css` to your project.
+1. Done!
+
+If it does not work as expected, your other styles are probably overwriting the styles of this file. Another issue can be that you did not reset the CSS. You probably need to add `* { margin: 0; padding: 0; }` before anything else is loaded.
+
 ## Tags supported
 
 - a
+- b
 - blockquote
 - br
 - cite
 - code
+- i
 - img
 - em
 - h1-h4
@@ -56,7 +65,7 @@ If it's not yet perfect, [add an issue](https://github.com/jenstornell/perfect-t
 
 ## FAQ
 
-### There is no such thing as a perfect text format?
+### It there a perfect text format?
 
 It's probably debatable, but I think it is. Take away everything that has to do with branding. What do we have left? Readability!
 
@@ -70,10 +79,11 @@ Fine tune every little value like this and we will eventually get the perfect te
 - They are common and free
 - They are beautiful and are placed on a fast CDN
 - It's possible to download them and host them yourself if needed
+- I don't need to host the fonts with the repo
 
-### Why not use Bootstrap?
+### Why not use Bootstrap or other frameworks?
 
-[Bootstrap](https://getbootstrap.com/) and other frameworks contain very much. Most of that stuff is not needed.
+[Bootstrap](https://getbootstrap.com/) and other frameworks has a lot of stuff. Most of the things is not needed. This repo only covers the things that has to do with the text content.
 
 ## Libraries used
 
