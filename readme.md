@@ -4,6 +4,8 @@
 
 This is a serious attempt to create the perfect text format for readability.
 
+[Demo](https://jsfiddle.net/w4hftLpm/)
+
 ![Screenshot](screenshot.png)
 
 ## In short
@@ -11,10 +13,11 @@ This is a serious attempt to create the perfect text format for readability.
 - Neutral feeling, not branded in any way.
 - The most common content tags are supported.
 - Perfect balanced colors for eye comfort.
-- Maximum readability because of perfect font families, letter spacings, line heights and font sizes.
+- Maximum readability because of perfect font families, letter spacings and line heights.
 - Maximum scanability because of perfect spaces between elements (paddings/margins).
+- Maximum responsiveness because of fluid font sizes.
 
-If you disagree, add an issue.
+If you disagree, [add an issue](https://github.com/jenstornell/perfect-text-format/issues/new).
 
 ## Tags supported
 
@@ -38,30 +41,18 @@ If you disagree, add an issue.
 
 ## About the text format
 
-If it's not yet perfect, I want an issue from you what you want to improve and how.
+| About           | Value | Explained |
+| --------------- | ----- | --------- |
+| Font - Default  | [Roboto](https://fonts.google.com/specimen/Roboto)       | It seems like the perfect fonts for small to large texts       |
+| Font - `h1`     | [Fira sans](https://fonts.google.com/specimen/Fira+Sans) | To get that extra punch we needed something bolder than Roboto |
+| Font - `code`   | [PT Mono](https://fonts.google.com/specimen/PT+Mono)     | It looks way better than Courier New or Monospace              |
+| Line height     | `1.4` by default and `1.2` for headlines                 | |
+| Color - Default | `#444`                                                   | To not use the darkest black is better for readability         |
+| Color - Link    | `#0074d9`                                                | It's taken from [Clrs](https://clrs.cc/)                       |
+| Color - `th`    | `#333`                                                   | The table headlines pops out from the table with a contrast color |
+| Color - `td`    | `#fff` and `#f7f7f7`                                     | Even lines uses white and odd lines uses light gray               |
 
-### The fonts
-
-- Default - [Roboto](https://fonts.google.com/specimen/Roboto)
-- `h1` - [Fira sans](https://fonts.google.com/specimen/Fira+Sans)
-- `code` - [PT Mono](https://fonts.google.com/specimen/PT+Mono)
-
-### Other things
-
-- Default line height: `1.4`
-- Default text color: `#444`
-- Link color: `#0074d9` taken from https://clrs.cc/
-
-### This and that
-
-- **Code:** If you use code and it overflows, you will see a scrollbar. It's styled up but so far it will only work in webkit browsers.
-- **Blockquote:** A fat solid left line indicate that it's a blockquote. You can use elements inside it as well.
-- **Images:** In case an image is too wide, it will shrink to the max width of the text container.
-- The font size is fluid and responsive. It will be larger on larger screens and smaller on smaller screens.
-
-## Table
-
-Table headings `th` is black. The table rows containing `td` is white but every odd line is light gray.
+If it's not yet perfect, [add an issue](https://github.com/jenstornell/perfect-text-format/issues/new) and tell me why its not.
 
 ## FAQ
 
