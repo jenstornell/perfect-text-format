@@ -4,7 +4,7 @@
 
 This is a serious attempt to create the perfect text format for readability.
 
-[Demo](https://jsfiddle.net/w4hftLpm/)
+[Demo](https://jsfiddle.net/w4hftLpm/1/)
 
 ![Screenshot](screenshot.png)
 
