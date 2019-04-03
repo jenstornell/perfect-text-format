@@ -25,7 +25,7 @@ If you disagree, [add an issue](https://github.com/jenstornell/perfect-text-form
 1. Create `<div class="format-text"></div>` and add some content.
 1. Done!
 
-If it does not work as expected, your other styles are probably overwriting the styles of this file. Another issue can be that you did not reset the CSS. You probably need to add `* { margin: 0; padding: 0; }` before anything else is loaded.
+If it does not work as expected, your other styles are probably overwriting the styles of this file.
 
 ## Tags supported
 
