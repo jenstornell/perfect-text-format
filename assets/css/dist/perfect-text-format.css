@@ -10,13 +10,10 @@
   .format-text > * {
     padding: 0;
     margin: 0; }
-  @media screen and (min-width: 25em) {
+  @media screen and (min-width: 320px) {
     .format-text {
-      font-size: 14px; } }
-  @media screen and (min-width: 25em) and (min-width: 320px) {
-    .format-text {
-      font-size: calc(14px + 6 * ((100vw - 320px) / 880)); } }
-  @media screen and (min-width: 25em) and (min-width: 1200px) {
+      font-size: calc(14px + 6 * (100vw - 320px) / 880); } }
+  @media screen and (min-width: 1200px) {
     .format-text {
       font-size: 20px; } }
   .format-text h1,
