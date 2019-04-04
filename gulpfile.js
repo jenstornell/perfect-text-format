@@ -8,7 +8,7 @@ let rename = require('gulp-rename');
 var css = {
   src: 'assets/css/src/**/*.scss',
   dest: 'assets/css/dist',
-  filename: 'style.scss'
+  filename: 'perfect-text-format.scss'
 };
 
 function style() {

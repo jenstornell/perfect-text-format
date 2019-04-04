@@ -1,10 +1,11 @@
 # Perfect text format
 
-*Version 1.0*
+*Version 1.1*
 
 This is a serious attempt to create the perfect text format for readability.
 
-[Demo](https://jsfiddle.net/w4hftLpm/1/)
+[Demo - JSFddle](https://jsfiddle.net/w4hftLpm/1/)
+[Demo - JS Bin](https://jsbin.com/hoguqodebo/edit?output) (works on mobile)
 
 ![Screenshot](screenshot.png)
 
@@ -21,7 +22,8 @@ If you disagree, [add an issue](https://github.com/jenstornell/perfect-text-form
 
 ## Usage
 
-1. Add the file `assets/css/dist/style.min.css` to your project.
+1. Download the  [css file](https://raw.githubusercontent.com/jenstornell/perfect-text-format/master/assets/css/dist/style.min.css)
+1. Add `<link rel="stylesheet" href="assets/css/dist/style.min.css">` to your head.
 1. Create `<div class="format-text"></div>` and add some content.
 1. Done!
 
@@ -29,40 +31,10 @@ If it does not work as expected, your other styles are probably overwriting the 
 
 ## Tags supported
 
-- a
-- b
-- blockquote
-- br
-- cite
-- code
-- i
-- img
-- em
-- h1-h4
-- li
-- ol
-- p
-- pre
-- strong
-- table
-- td
-- th
-- ul
-
-## About the text format
-
-| About           | Value | Explained |
-| --------------- | ----- | --------- |
-| Font - Default  | [Roboto](https://fonts.google.com/specimen/Roboto)       | It seems like the perfect fonts for small to large texts       |
-| Font - `h1`     | [Fira sans](https://fonts.google.com/specimen/Fira+Sans) | To get that extra punch we needed something bolder than Roboto |
-| Font - `code`   | [PT Mono](https://fonts.google.com/specimen/PT+Mono)     | It looks way better than Courier New or Monospace              |
-| Line height     | `1.4` by default and `1.2` for headlines                 | |
-| Color - Default | `#444`                                                   | To not use the darkest black is better for readability         |
-| Color - Link    | `#0074d9`                                                | It's taken from [Clrs](https://clrs.cc/)                       |
-| Color - `th`    | `#333`                                                   | The table headlines pops out from the table with a contrast color |
-| Color - `td`    | `#fff` and `#f7f7f7`                                     | Even lines uses white and odd lines uses light gray               |
-
-If it's not yet perfect, [add an issue](https://github.com/jenstornell/perfect-text-format/issues/new) and tell me why its not.
+```text
+a b blockquote br cite code i img em h1 h2 h3 h4
+li ol p pre strong table td th ul
+```
 
 ## FAQ
 
